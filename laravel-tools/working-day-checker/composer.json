@@ -1,0 +1,21 @@
+{
+    "name": "laravel-tools/working-day-checker",
+    "description": "A Laravel package to check if a given date is a working day.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LaravelTools\\WorkingDayChecker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelTools\\WorkingDayChecker\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
