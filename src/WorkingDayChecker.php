@@ -19,12 +19,14 @@ class WorkingDayChecker
 
         $getAllDates = $this->getAllDates();
 
+        $date = date('Ymd', strtotime($date));
+
         if (!isset($getAllDates[$date])) {
             throw new WorkingDayCheckerException($date . '不在日期范围内'); // 抛出异常
         }
         if (isset($getAllDates[$date]['workday']) && $getAllDates[$date]['workday'] === 1) {
             return true;
-        } elseif (isset($getAllDates[$date]['workday']) && $getAllDates[$date]['workday'] === 0) {
+        } elseif (isset($getAllDates[$date]['workday']) && $getAllDates[$date]['workday'] === 2) {
             return false;
         }
     }

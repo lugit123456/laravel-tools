@@ -1,6 +1,6 @@
 {
     "name": "luzhe-private-tools/working-day-checker",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A Laravel package to check if a given date is a working day.",
     "type": "library",
     "license": "MIT",
