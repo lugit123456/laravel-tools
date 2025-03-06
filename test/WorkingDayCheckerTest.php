@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelTools\WorkingDayChecker;
+namespace LaravelTools\Test\WorkingDayChecker;
 
 class WorkingDayChecker
 {
